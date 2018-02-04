@@ -70,7 +70,7 @@ text_string = msg.as_string()
 
 server = smtplib.SMTP("smtp.gmail.com", 587)
 server.starttls()
-server.login(from_email, "jrlljnzkgwqxyrec")
+server.login(from_email, "***********")  # password goes in here
 
 
 server.sendmail(from_email, to_email, text_string)
